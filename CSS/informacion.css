@@ -1,0 +1,94 @@
+.body{ 
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a5b1c2;
+}
+.container{
+    position: center;
+    width: 560px;
+    height: 800px;
+    /* overflow: hidden; */
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #485460;
+}
+
+.radio-btn{
+    display: flex;
+}
+
+.images-container{
+    display: flex;
+    width: 150%;
+    animation: slider 30s ease-in-out infinite infinite;
+
+}
+/* .imge{
+    width: 35000px;
+    height: 700px;
+    border: none;
+    border-radius: 120px;
+    color: black;
+} */
+.imge img{
+    /* max-width: 100%; */
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+    border: flex;
+    color: red;
+}
+.btn-container{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff0000;
+}
+.btn{
+    display: inline-block;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0af802;
+    margin: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+.radio-btn:checked + .images-container{
+    animation-play-state: paused;
+}
+
+
+.radio-btn:nth-child(1):checked ~ .images-container{
+    transform: translate(0%);
+}
+.radio-btn:nth-child(2):checked ~ .images-container{
+    transform: translate(-33%);
+}
+.radio-btn:nth-child(2):checked ~ .images-container{
+    transform: translate(-66%);
+}
+/* .radio-btn:nth-child(2):checked ~ .images-container{
+    transform: translate(-66.66%);
+} */
+
+/* @keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+} */
+
+    /* 40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);} */
+    /* 60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);} 
