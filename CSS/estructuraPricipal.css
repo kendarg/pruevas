@@ -1,9 +1,96 @@
 *{
-    font-family: "Sora", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 body{
-    background-color: black;
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
 }
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    background-color: #f5f5ff;
+    padding: 10px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+/* addin tamaño */
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #111111;
+    display: block;
+
+}
+#menu{
+    display:none;
+
+}
+.menu-icono{
+    width: 100px;
+}
+.usuario{
+    width: 50px;
+}
+
+.btn-2{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #686565bb;
+    color: green;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
