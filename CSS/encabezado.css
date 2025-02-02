@@ -17,6 +17,7 @@ ul{
 ul li{
     display: inline-block;
     position: relative;
+    z-index: 1;
 }
 
 ul li a{

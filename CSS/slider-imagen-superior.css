@@ -7,11 +7,11 @@
 
 
 .container-carusel {
-    width: 800px;
+    width: 1050px;
     height: 90%;
     /* background-color: rgb(8, 236, 46); */
-    box-shadow: 0 80px 32px 0 rgba(0, 0, 0, 0.66);
-    border-radius: 20px;
+    box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.288);
+    /* border-radius: 20px; */
     overflow: hidden;
     position: relative;
    
@@ -19,13 +19,12 @@
 /* movimiento de carusel y su tamaño */
 .caruseles {
     
-    width: 500%;
+    width: calc(100% * 5);
     height: 420px;
     display: flex;
     /* background-color: red; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
     object-fit: cover;
-
 
 
 }
@@ -40,7 +39,7 @@
 .slider-section img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 
 }
 
@@ -71,74 +70,5 @@ left: 10px;
 .btn-right{
 right: 10px;
 }
-.item .coment{
-    display: center;
-    position: absolute;
-    top: 20%;
-    font-size: 1.5rem;
-    /* background-color: transparent; */
-    padding: 50px;
-    font-weight: 6000;
-    color: #00000081;
-    transform: translate(0, -50%);
-    transition: .5s ease;
-    user-select: none;
-}
-.item .coment{
-    color: black;
-    text-align: left;
-  
-}
-.imagen-4, .imagen-5{
-    color: #dadada;
-    -webkit-text-stroke: 0.30px black;
-}
-.boton-principal-4,.boton-principal-5{
-    color: white;
-   
-}
 
-button{
-    font-size: 15px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
-    padding: 0.7em 2em;
-    border: 2px solid #001aff62;
-    border-radius: 2px;
-    position: relative;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition: 0.3s ease all;
-    z-index: 1;
-    background-color: transparent;
-}
-
-button:before{
-    transition: 0.5s all ease;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: '';
-    background-color: #00ffff;
-    z-index: -1;
-
-}
-button:hover, button:focus{
-color: rgb(255, 255, 255);    
-}
-button:hover:before, button:focus:before{
-    transition: 0.5s all ease;
-    right: 0;
-    left: 0;
-    opacity: 1;
-}
-button:active{
-    transform: scale(0.9);
-}
 
