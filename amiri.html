@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMiri</title>
+    <link rel="stylesheet" href="./CSS/slider-imagen-superior.css">
+    <link rel="icon" href="./fotos/LOGO/Imagen2.ico">
+    <link rel="stylesheet" href="./CSS/encabezado.css">
+    <link rel="stylesheet" href="./CSS/estructuraPricipal.css">
+
+    
 </head>
 <body>
-    <h2>pagina inicial de Amiri</h2>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="./index.html" class="logo">Colombia Shoes</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <a href="./index.html" class="logo-2">
+                    <img src="./fotos/LOGO/logo (2).png" class="menu-icono" alt="icono">
+                </a>
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">°Inicio</a></li>
+                    <li><a href="#">°Asesor</a></li>
+                    <li><a href="#">°Hombre</a>
+                        <ul>
+                            <li><a href="#">°Nike</a></li>
+                            <li><a href="#">°Adidas</a></li>
+                            <li><a href="#">°Puma</a></li>
+                            <li><a href="#">°New Balance</a></li>
+                            <li><a href="./amiri.html">°Amiri</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">°Mujer</a>
+                        <ul>
+                            <li><a href="#">°Nike</a></li>
+                            <li><a href="#">°Adidas</a></li>
+                            <li><a href="#">°Puma</a></li>
+                            <li><a href="./amiri.html">°Amiri</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">°Infantil</a></li>
+                    
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="usuario">
+                        <img src="./iconos/usuario.png" id="img-usuario" alt="usuario">
+                        <div class="usuario">
+                            <table id="lista-usuario-info">
+
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header> 
+    
+
+<section class="product">
+
+        <!-- separacion -->
+   <div  class="texto-principal">
+     <h2 class="categoria-productos">Nuevos Productos</h2>
+     </div>
+            <button class="pre-btn"><</button>
+            <button class="next-btn">></button>
+            <div class="product-container" id="Pslider">  
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Nuevo</span>
+                    <a href="./vermas.html">
+                        <img src="./fotos/ADIDAS/KORNNEGRA.jpg" class="product-thumb">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h2 class="procuct-brand">ADIDAS</h2>
+                    <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                    <span class="price">$85.000</span>
+                </div>
+            </div>
+            
+        
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Nuevo</span>
+                    <a href="./vermas.html">
+                        <img src="./fotos/NEW BALANCE/530AZUL.jpg" class="product-thumb">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h2 class="procuct-brand">New balance</h2>
+                    <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                    <span class="price">$85.000</span>
+                </div>
+            </div>
+            
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Nuevo</span>
+                    <a href="./vermas.html">
+                        <img src="./fotos/AMIRI/AMIRIBLANCANEGRA.jpg" class="product-thumb">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h2 class="procuct-brand">AMIRI</h2>
+                    <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                    <span class="price">$85.000</span>
+                </div>
+            </div>
+        
+            
+        
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Nuevo</span>
+                    <a href="./vermas.html">
+                        <img src="./fotos/NIKE/JUMBO.jpg" class="product-thumb">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h2 class="procuct-brand">Nike</h2>
+                    <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                    <span class="price">$85.000</span>
+                </div>
+            </div>
+        
+        
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">Nuevo</span>
+                    <a href="./vermas.html">
+                        <img src="./fotos/PUMA/PUMAXLNEGRA.jpg" class="product-thumb">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <h2 class="procuct-brand">Puma</h2>
+                    <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                    <span class="price">$85.000</span>
+                </div>
+                    
+                </div>
+                
+                <!-- <div class="pre-btn"><</div>
+                <div class="next-btn">></div> -->
+                
+        </div>
+                
+            
+                     <div class="button-vermas">
+                         <a href="./vermas.html">
+                             <button href="./vermas.html" class="vermas">Ver Todo</button>
+                         </a>
+                    </div>
+
+
+           
+</section>
+
+
+        <script src="./js/pruevas2.js"></script>
 </body>
 </html>

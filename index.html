@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="./CSS/encabezado.css">
     <link rel="stylesheet" href="./CSS/estructuraPricipal.css">
     <link rel="stylesheet" href="./CSS/slider-imagen-superior.css">
+    <link rel="stylesheet" href="./CSS/slider-medio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <!--  -->
-    
-        <header class="header">
+<header class="header">
         <div class="menu container">
             <a href="./index.html" class="logo">Colombia Shoes</a>
             <input type="checkbox" id="menu">
@@ -26,15 +25,15 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="pruevas.html">°Pruevas</a></li>
-                    <li><a href="#">°Asesor</a></li>
+                    <li><a href="./Lo Nuevo.html">°Lo Nuevo</a></li>
+                    <li><a href="./asesor.html">°Asesor</a></li>
                     <li><a href="#">°Hombre</a>
                         <ul>
                             <li><a href="#">°Nike</a></li>
                             <li><a href="#">°Adidas</a></li>
                             <li><a href="#">°Puma</a></li>
                             <li><a href="#">°New Balance</a></li>
-                            <li><a href="#">°Amiri</a></li>
+                            <li><a href="./amiri.html">°Amiri</a></li>
                         </ul>
                     </li>
                     <li><a href="#">°Mujer</a>
@@ -42,7 +41,7 @@
                             <li><a href="#">°Nike</a></li>
                             <li><a href="#">°Adidas</a></li>
                             <li><a href="#">°Puma</a></li>
-                            <li><a href="#">°Amiri</a></li>
+                            <li><a href="./amiri.html">°Amiri</a></li>
                         </ul>
                     </li>
                     <li><a href="#">°Infantil</a></li>
@@ -63,8 +62,11 @@
             </div>
         </div>
     </header>
+
+    <!-- fin de encabesado -->
 <!-- <main class="produc container"> -->
-    
+   <section>
+    <!-- <h2>Lo Mas nuevo del mercado</h2> -->
     <div class="container-carusel container">
         
        <div class="caruseles" id="slider">
@@ -73,11 +75,11 @@
                    <img src="./fotos/PRUEVA TAMAÑO IMAGENES/FOTOS1.jpg" alt="">
                    <div class="coment">
                        <div class="imagen-1">
-                           <div class="name" id="btn2">°Adidas</div>
-                           <div class="des">Lo nuevo y mejor del mercado</div>
+                           <div class="name" id="btn2"></div>
+                           <div class="des"></div>
                         </div>
                         <div class="boton-prueva">
-                            <button class="boton-principal-1">Ver Más</button>
+                            <!-- <button class="boton-principal-1">Ver Más</button> -->
                         </div>
                     </div>
                </div>
@@ -87,10 +89,10 @@
                    <img src="./fotos/PRUEVA TAMAÑO IMAGENES/FOTOS2.jpg" alt="">
                    <div class="coment">
                        <div class="imagen-2">
-                           <div class="name" id="btn2">°AMiri</div>
-                           <div class="des">Lo nuevo y mejor del mercado</div>
+                           <div class="name" id="btn2"></div>
+                           <div class="des"></div>
                         </div>
-                         <button class="boton-principal-2">Ver Más</button>
+                         <!-- <button class="boton-principal-2">Ver Más</button> -->
                         </div>
                    
                 </div>
@@ -100,10 +102,10 @@
                     <img src="./fotos/PRUEVA TAMAÑO IMAGENES/FOTOS3.jpg" alt="">
                    <div class="coment">
                        <div class="imagen-3">
-                           <div class="name" id="btn2">°New Balance</div>
-                           <div class="des">Lo nuevo y mejor del mercado</div>
+                           <div class="name" id="btn2"></div>
+                           <div class="des"></div>
                         </div>
-                         <button class="boton-principal-3">Ver Más</button>
+                         <!-- <button class="boton-principal-3">Ver Más</button> -->
                         </div>
                    
                 </div>
@@ -113,40 +115,141 @@
                     <img src="./fotos/PRUEVA TAMAÑO IMAGENES/FOTOS4.jpg" alt="">
                     <div class="coment">
                         <div class="imagen-4">
-                            <div class="name" id="">°Nike</div>
-                            <div class="des">Lo nuevo y mejor del mercado</div>
+                            <div class="name" id=""></div>
+                            <div class="des"></div>
                         </div>
-                        <button class="boton-principal-4">Ver Más</button>
+                        <!-- <button class="boton-principal-4">Ver Más</button> -->
                         </div>
                 </div>
 
             </section>
             <section class="slider-section">
                 <div class="item">
-                    <a href="amiri.html">
+                    <a href="#">
                         <img src="./fotos/PRUEVA TAMAÑO IMAGENES/FOTOS6.png" alt="">
                     </a>
                     <div class="coment">
                         <div class="imagen-5">
                             <div class="name" id=""></div>
                             <div class="des"></div>
-                            <button class="boton-principal-5">Ver Más</button>
+                            <!-- <button class="boton-principal-5">Ver Más</button> -->
                         </div>
-                        </div>
+                    </div>
                 </div>
 
             </section>
-               
+            
         </div>
         
         <div class="btn-left"><</div>
        <div class="btn-right">></div>
    </div>
-   
-<!-- </main> -->
+</section> 
+
+<!-- slider medio -->
+<section class="product">
+
+<!-- separacion -->
+<div  class="texto-principal">
+     <h2 class="categoria-productos">Nuevos Productos</h2>
+    </div>
+    <button class="pre-btn"><</button>
+    <button class="next-btn">></button>
+    
+    
+    <div class="product-container" id="Pslider">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Nuevo</span>
+                <a href="./vermas.html">
+                    <img src="./fotos/ADIDAS/KORNNEGRA.jpg" class="product-thumb">
+                </a>
+            </div>
+            <div class="product-info">
+                <h2 class="procuct-brand">ADIDAS</h2>
+                <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                <span class="price">$85.000</span>
+            </div>
+        </div>
+        
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Nuevo</span>
+                <a href="./vermas.html">
+                    <img src="./fotos/NEW BALANCE/530AZUL.jpg" class="product-thumb">
+                </a>
+            </div>
+            <div class="product-info">
+                <h2 class="procuct-brand">New balance</h2>
+                <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                <span class="price">$85.000</span>
+            </div>
+        </div>
+
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Nuevo</span>
+                <a href="./vermas.html">
+                    <img src="./fotos/AMIRI/AMIRIBLANCANEGRA.jpg" class="product-thumb">
+                </a>
+            </div>
+            <div class="product-info">
+                <h2 class="procuct-brand">AMIRI</h2>
+                <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                <span class="price">$85.000</span>
+            </div>
+        </div>
+
+        
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Nuevo</span>
+                <a href="./vermas.html">
+                    <img src="./fotos/NIKE/JUMBO.jpg" class="product-thumb">
+                </a>
+            </div>
+            <div class="product-info">
+                <h2 class="procuct-brand">Nike</h2>
+                <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                <span class="price">$85.000</span>
+            </div>
+        </div>
+
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">Nuevo</span>
+                <a href="./vermas.html">
+                    <img src="./fotos/PUMA/PUMAXLNEGRA.jpg" class="product-thumb">
+                </a>
+            </div>
+            <div class="product-info">
+                <h2 class="procuct-brand">Puma</h2>
+                <p class="product-shor-description">Lo nuevo de (Marca) para tu seleccion</p>
+                <span class="price">$85.000</span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    
+    
+    <div class="button-vermas">
+        <a href="./vermas.html">
+            <button href="./Lo Nuevo.html" class="vermas">Ver Todo</button>
+        </a>
+    </div>
+</section>
+<!-- slider medio fin -->
 
 <script src="./js/pruevas.js"></script>
 </body>
+</html>
 </html>  
 
 

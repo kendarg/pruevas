@@ -1,0 +1,64 @@
+*{
+    font-family: "Bigshot One", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.centrar-img{
+   
+    background-color: #1a1e23;
+    align-items: center;
+    justify-items: center;
+    height: 600px;
+    text-align: center;
+
+   
+}
+.contenedor-asesor{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 800px;
+   
+}
+.contenedor-img{
+    
+    position: relative;
+    height: 100%;
+    width: 100%;
+   
+}
+.contenedor-img{
+    height: 400px;
+    width: 430px;
+    text-align: center;
+}
+.imagenes-gif{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.imagenes-gif-m{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+.imagenes-gif, .efecto:hover .imagenes-gif-m{
+    display: flex;
+}
+.imagenes-gif-m, .efecto:hover .imagenes-gif{
+    display: none;
+}
+h1{
+    font-family: "Bigelow Rules", serif;
+    font-weight: 400;
+    font-style: 10000000px;
+    color: white;
+}
