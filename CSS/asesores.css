@@ -1,63 +1,36 @@
-*{
-    font-family: "Bigshot One", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+body{
+    background-color: #aeaeae;
 }
-
-.centrar-img{
-   
-    background-color: #1a1e23;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    padding: 1vw 5vw 9.5vw;
-
-   
-}
-.contenedor-asesor{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 100%;
-    width: 42vw;
-   
-}
-.contenedor-img{
-    
-    position: relative;
-    height: auto;
+.imagenes{
+    padding: 11vw 5vw 14vw;
+    min-height: 45vw;
     width: 100%;
-   
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+    background-color: #aeaeae;
+    justify-content: center;
 }
-.contenedor-img{
-    height: auto;
-    width: 30vw;
-    text-align: center;
-}
-.imagenes-gif{
-    height: 29.3vw;
-    width: 100vw;
+.not-gif, .img-gif{
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
     border-radius: 20px;
 }
-.imagenes-gif-m{
-    height: 29.3vw;
-    width: 100vw;
-    border-radius: 20px;
-}
-.imagenes-gif, .efecto:hover .imagenes-gif-m{
+.not-gif, .imagen-a:hover .img-gif{
     display: flex;
+    cursor: pointer;
 }
-.imagenes-gif-m, .efecto:hover .imagenes-gif{
+.img-gif, .imagen-a:hover .not-gif{
     display: none;
+    cursor: pointer;
 }
-h1{
+h2{
     font-family: "Bigelow Rules", serif;
     font-weight: 400;
+    font-size: 40px;
     color: white;
+    text-align: left;
+    text-decoration: none;
 }

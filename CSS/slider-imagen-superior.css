@@ -7,9 +7,9 @@
 
 
 .container-carusel {
-    width: 100vw;
+    width: 98.7vw;
     height: 45vw;
-    background-color: rgb(8, 236, 46);
+    /* background-color: rgb(8, 236, 46); */
     box-shadow: 1vw 0vw 1.5vw 0 rgba(0, 0, 0, 0.288);
     /* border-radius: 20px; */
     overflow: hidden;
@@ -49,14 +49,15 @@
     position: absolute;
     top: 50%;
     font-size: 1.5rem;
-    background-color: transparent;
+    background-color: #cecece;
     padding: 1vw;
     font-weight: 600;
     cursor: pointer;
-    color: #ffffff81;
+    color: #00000081;
     transform: translate(0, -50%);
     transition: .5s ease;
     user-select: none;
+    border-radius: 20px;
 }
 .btn-left:hover,
 .btn-right:hover{
