@@ -133,7 +133,10 @@
 .next-btn:hover img{
     opacity: 1;
 } 
+.product-thumb:hover {
+    transform: scaleX(-1);
 
+}
 
 .pre-btn:hover,
 .next-btn:hover{
