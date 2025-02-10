@@ -91,12 +91,13 @@
 }
 .product-shor-description{
     width: 100%;
-    height: 1.5vw;
-    line-height: 1.5vw;
-    overflow: hidden;
+    height: 2vw;
+    line-height: 2vw;
+    /* overflow: hidden; */
     opacity: 0.5;
     text-transform: capitalize;
     margin: 5px 0;
+    overflow-wrap: break-word;
 }
 .price{
     font-weight: 900;
