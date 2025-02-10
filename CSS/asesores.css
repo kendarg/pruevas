@@ -15,8 +15,8 @@
     background-color: #1a1e23;
     align-items: center;
     justify-items: center;
-    height: 600px;
     text-align: center;
+    padding: 1vw 5vw 9.5vw;
 
    
 }
@@ -25,29 +25,29 @@
     align-items: center;
     display: flex;
     height: 100%;
-    width: 800px;
+    width: 42vw;
    
 }
 .contenedor-img{
     
     position: relative;
-    height: 100%;
+    height: auto;
     width: 100%;
    
 }
 .contenedor-img{
-    height: 400px;
-    width: 430px;
+    height: auto;
+    width: 30vw;
     text-align: center;
 }
 .imagenes-gif{
-    height: 400px;
-    width: 400px;
+    height: 29.3vw;
+    width: 100vw;
     border-radius: 20px;
 }
 .imagenes-gif-m{
-    height: 400px;
-    width: 400px;
+    height: 29.3vw;
+    width: 100vw;
     border-radius: 20px;
 }
 .imagenes-gif, .efecto:hover .imagenes-gif-m{
@@ -59,6 +59,5 @@
 h1{
     font-family: "Bigelow Rules", serif;
     font-weight: 400;
-    font-style: 10000000px;
     color: white;
 }
