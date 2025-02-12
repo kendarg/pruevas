@@ -1,0 +1,49 @@
+.catalogo-contenedor{
+    padding: 10vw 10vw 10vw;
+    text-align: center;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+.catalogo-card{
+    height: 30vw;
+    width: 20vw;
+    background-color: red;
+    border-radius: 20px;
+}
+.catalogo-img{
+    height: 20vw;
+    width: 98%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.catalogo-ver{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.catalogo-tag{
+    position: relative;
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    right: 6vw;
+    top:2vw;
+    text-transform: capitalize;
+}
+@media(min-width:900px){
+    section .catalogo{
+        padding: 20px;
+
+    }
+}
